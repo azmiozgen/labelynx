@@ -1,0 +1,18 @@
+{
+    "country" : {
+        "bbox" : [],
+        "content" : []
+    },
+    "city" : {
+        "bbox" : [],
+        "content" : []
+    },
+    "letter" : {
+        "bbox" : [],
+        "content" : []
+    },
+    "number" : {
+        "bbox" : [],
+        "content" : []
+    }
+}
