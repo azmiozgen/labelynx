@@ -31,8 +31,8 @@ dataset
 ## Shortcuts
 
 * `Esc` : Exit
-* `q` or 'Q' : Exit
-* `a` or 'A' : Previous image
-* `d` or 'D' : Next image
-* `z` or 'Z' : Undo the last annotation
-* `c` or 'C' : Clean all annotations
+* `q` or `Q` : Exit
+* `a` or `A` : Previous image
+* `d` or `D` : Next image
+* `z` or `Z` : Undo the last annotation
+* `c` or `C` : Clean all annotations
