@@ -180,7 +180,7 @@ class ImageView:
         if not os.path.isdir(images_dir):
             print(f'{images_dir} was not found. Exiting.')
             sys.exit()
-        self.image_files = glob.glob(os.path.join(images_dir, '*' + IMAGE_FILE_EXTENSION))
+        self.image_files = sorted(glob.glob(os.path.join(images_dir, '*' + IMAGE_FILE_EXTENSION)))
         self.image_filenames = list(map(os.path.basename, self.image_files))
         self.image_filenames_wo_extension = list(map(lambda s: s.split('.')[0], self.image_filenames))
         self.n_image_files = len(self.image_files)
