@@ -428,10 +428,10 @@ if __name__ == '__main__':
             text += digit_str
             write(digit_str)
 
-        ## Delete label with 'backspace' in writing mode
-        if writing and key == 8:
-            text = text[:-1]
-            image_view.set_last_image()
+        # ## Delete label with 'backspace' in writing mode
+        # if writing and key == 8:
+        #     text = text[:-1]
+        #     image_view.set_last_image()
 
         ## Undo
         if key in [ord('z'), ord('Z')]:
